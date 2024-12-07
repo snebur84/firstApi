@@ -1,27 +1,27 @@
-## First API
+# First API
 
-# Instalar pacotes a aplicação:
+### Instalar pacotes a aplicação:
 
 ``` bash
 npm install typescript ts-node @types/node mongodb mongodb-memory-server
 ```
 
-# Configurando o TypeScript
+### Configurando o TypeScript
 ``` bash
 npx tsc --init
 ```
 
-# Inicializando a aplicação
+### Inicializando a aplicação
 
 ``` bash
 npm run start
 ```
 
-###### ROTA POST
+## ROTA POST
 
 - **POST /usuarios**: Insere um usuário
 
-# Exemplo de body da Request:
+### Exemplo de body da Request:
 ``` Json
 {
     "nome": "Rubens Lemos",
@@ -29,7 +29,7 @@ npm run start
     "telefone": "3198765432"
 }
 ```
-# Exemplo de resposta:
+### Exemplo de resposta:
 ``` Json
 {
     "message": "Usuário cadastrado com sucesso",
@@ -37,9 +37,9 @@ npm run start
 }
 ```
 
-###### ROTA GET
+## ROTA GET
 
-# Exemplo de resposta:
+### Exemplo de resposta:
 ``` Json
 [
     {
