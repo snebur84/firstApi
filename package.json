@@ -1,0 +1,1 @@
+{"scripts":{"start":"ts-node src/server.ts"},"dependencies":{"@types/node":"^22.10.1","mongodb":"^6.11.0","mongodb-memory-server":"^10.1.2","ts-node":"^10.9.2","typescript":"^5.7.2"}}
